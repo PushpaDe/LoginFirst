@@ -32,8 +32,8 @@ public class GitHubLoginStepDef {
 
 	@When("^user enter Invalid username and password$")
 	public void user_enter_Invalid_username_and_password() throws Throwable {
-	   loginPage.setLogin("satishmahajan");
-	   loginPage.setPassword("saomepassword");
+	   loginPage.setLogin("pushpaDe");
+	   loginPage.setPassword("Behappy@11");
 	   loginPage.singIn();
 	  
 	}
